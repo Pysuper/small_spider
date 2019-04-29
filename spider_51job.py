@@ -2,6 +2,9 @@ import requests
 
 
 class Job():
+    """
+    使用BeautifulSoup、Xpath、Selenium、Scrapy完成项目
+    """
     def __init__(self):
         # 初始化项目中用到的变量
         self.base_url = ""
@@ -11,18 +14,18 @@ class Job():
         url_list = []
 
     def get_html_text(self, url):
-        # 通过url获取当前页面中的html文本
+        # 通过url获取当前页面中的html文本 ==>
         response = requests.get(url)
         response.status_code = requests.exceptions
         if response.status_code == 200:
             return response.text
 
     def parse_page_info(self, html):
-        # 从当前页面中找到需要的信息，返回信息列表
+        # 使用BeautifulSoup、Xpath、Selenium、Scrapy完成数据匹配
         return []
 
     def save_info(self, item):
-        # 结合数据库存储数据
+        # 使用Redis，MySQL，MongoDB存储
         pass
 
     def run(self):
