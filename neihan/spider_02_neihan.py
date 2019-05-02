@@ -1,4 +1,5 @@
 import re
+import urllib
 from urllib import request
 
 import requests
@@ -32,7 +33,15 @@ class NeiHanSpider():
 
     def save_image(self, image_url, image_num):
         print("正在下载:", image_url)
-        request.urlretrieve(image_url, './images/{}.gif'.format(image_num))
+        # request.urlretrieve(image_url, './images/{}.gif'.format(image_num))
+        # 使用上面这种方式保存图片的时候, 会报错无法访问 ==> 没有headers
+        response = urllib.request.Request(url=image_url, headers=self.headers)
+        try:
+        # 有些图片无法保存,打不开,异常处理
+            with open('./images/{}.gif'.format(image_num), 'wb') as f:
+                f.write(urllib.request.urlopen(response).read())
+        except:
+            pass
 
     def run(self):
         for page_list_url in self.page_list_url():
@@ -45,7 +54,7 @@ class NeiHanSpider():
                 self.num += 1
                 self.save_image(image_url, self.num)
                 break
-            break
+            # break
 
 
 if __name__ == '__main__':

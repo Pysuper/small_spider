@@ -127,7 +127,7 @@
 #     main()
 
 """
-neihantu_test
+neihantu_test 保存图片
 """
 import urllib
 from urllib import request
