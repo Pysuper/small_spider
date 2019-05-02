@@ -7,12 +7,12 @@ class XiCi():
         self.base_url = "http://www.xicidaili.com/nn/{}"
         self.header = {
             "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/69.0.3497.81 Chrome/69.0.3497.81 Safari/537.36"}
-        # self.proxy = {"http": "119.102.24.249:9999"} 可以使用
+        # self.proxy = {"http": "122.193.244.238:9999"} # 可以使用
     def get_url_list(self):
         return [self.base_url.format(page) for page in range(1, 2)]
 
     def get_html(self, url):
-        response = requests.get(url, headers=self.header)
+        response = requests.get(url, headers=self.header)   # proxies = self.proxy
         response.encoding = response.apparent_encoding
         if response.status_code == 200:
             return response.text
