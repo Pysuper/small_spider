@@ -26,7 +26,8 @@ class TieBaSpider():
 
     def get_items(self, content):
         # 打印要解码
-        print(content.decode())
+        # print(content.decode())
+        print("Save Info OK!")
 
     def parse_items(self, content):
         # 保存的时候, 字节直接保存就可以了
