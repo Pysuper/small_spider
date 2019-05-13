@@ -1,5 +1,7 @@
 import requests
 from lxml import etree
+from pprint import pprint
+from multiprocessing import Process, JoinableQueue
 
 
 class LianJiaSpider():
@@ -9,36 +11,41 @@ class LianJiaSpider():
             "Referer": "https://sh.lianjia.com/zufang/",
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
         }
-        pass
 
-    def get_page_list(self):
+    #             self.url_queue = JoinableQueue()
+    #         self.html_queue = JoinableQueue()
+    #         self.item_queue = JoinableQueue()
+
+    def get_url_list(self):
         return [self.base_url.format(page) for page in range(1, 101)]
 
+    def get_html(self, url):
+        response = requests.get(url, headers=self.headers)
+        if response.status_code == 200:
+            return response.text
+
+    #
+    def get_item(self, html):
+        html_xpath = etree.HTML(html)
+        info_list = html_xpath.xpath('//div[@class="content__list--item"]/div')
+        for info in info_list:
+            print(info)
+            item = {
+                "title": info.xpath('/p[1]/@href'),
+            }
+            yield item
+
+    def parse_item(self, item):
+        pprint(item)
+
     def run(self):
-        info_list = self.get_page_list()
-        for page_info_url in info_list:
-            page_response = requests.get(page_info_url, headers=self.headers)
+        for url in self.get_url_list():
+            html = self.get_html(url)
+            for item in self.get_item(html):
+                self.parse_item(item)
 
-            page_html = etree.HTML(page_response.text)
-            house_info = page_html.xpath('//div[@class="content__list--item"]/div/p[1]/a/text()')
-            # for i in house_info:
-            #     print(i)
-
-            areas_info1 = page_html.xpath('//div[@class="content__list--item"]/div/p[2]/a[1]/text()')
-            areas_info2 = page_html.xpath('//div[@class="content__list--item"]/div/p[2]/a[2]/text()')
-            for a, b in zip(areas_info1, areas_info2):
-                print(a + b)
-
-            areas_info_list = page_html.xpath('//div[@class="content__list--item"]/div/p[5]/i//text()')
-
-            money_list = page_html.xpath('//div[@class="content__list--item"]/div/span/em/text()')
-            for i in money_list:
-                print(i.strip() + "元/月")
-
-            print(money_list)
-            for house, areas in zip(house_info, areas_info_list):
-                print(house, areas)
-            # break
+                break
+            break
 
 
 if __name__ == '__main__':
