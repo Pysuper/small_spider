@@ -12,12 +12,13 @@ class Job():
 
     def __init__(self):
         # 初始化项目中用到的变量
-        self.keyword = input("请输入工作名称：")
+        self.keyword = input("请输入工作名称： ")
+        self.num = int(input("请输入抓取页数： "))
         self.base_url = "https://search.51job.com/list/020000,000000,0000,00,9,99,{},2,{}.html?"
 
     def get_url_list(self):
         # 通过base_url获得url_list(列表推导式, url编码)
-        return [self.base_url.format(quote(quote(self.keyword)), page) for page in range(1, 2)]
+        return [self.base_url.format(quote(quote(self.keyword)), page) for page in range(1, self.num)]
 
     def get_response(self, url):
         # 通过url获取当前页面中的html文本
@@ -74,8 +75,7 @@ class Job():
                 print(url)
                 self.save_items(work_name_list, com_name_list, work_place_list, work_money_list, print_day_list)
             else:
-                break
-            # break
+                continue
 
 
 job = Job()
