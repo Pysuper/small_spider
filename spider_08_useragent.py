@@ -1,5 +1,5 @@
 from random import choice
-
+from fake_useragent import UserAgent
 # 创建一个装有User-Agent的列表
 herders = [
     # Chrome
@@ -51,3 +51,13 @@ def main_head():
     # 使用 random 中的 choice 方法,随机获取其中的一个 User-Agent
     head = {"User-Agent": choice(herders)}
     return head
+
+def random_ua():
+    ua = UserAgent()
+    # ua.firefox    # 输出 firefox 中的一个随机的 useragent
+
+    user_agent = {"User-Agent":str(ua.random)}
+    print(user_agent)
+
+main_head()
+random_ua()
