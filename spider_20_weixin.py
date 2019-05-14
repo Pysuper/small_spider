@@ -32,7 +32,6 @@ class WeiXin():
 
     def get_html(self, url):
         response = requests.get(url, headers=self.header)
-        # response.encoding = response.apparent_encoding
         if response.status_code == 200:
             return response.text
 
