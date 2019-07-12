@@ -42,7 +42,7 @@ def parse_finally(finally_html):
 def save_image(title, href):
     """保存图片"""
     content = urlopen(href)
-    with open('./image/%s.jpg' % title[:-2], 'wb') as f:
+    with open('./images/%s.jpg' % title[:-2], 'wb') as f:
         f.write(content.read())
         print("%s----正在下载..." % title[:-2])
 
@@ -70,8 +70,8 @@ def more_text(url):
 
 def main(detail_url):
     print(detail_url)
-    for image_title, image_href in more_text(detail_url):
-        threading.Thread(target=save_image, args=(image_title, image_href)).start()
+    # for image_title, image_href in more_text(detail_url):
+    #     threading.Thread(target=save_image, args=(image_title, image_href)).start()
 
 
 if __name__ == '__main__':
