@@ -1,1 +1,0 @@
-<script>alert("会员级别不足，或每日免费次数已用完！");window.location.href="/"; </script>
