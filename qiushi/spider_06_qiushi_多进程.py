@@ -1,3 +1,5 @@
+import time
+
 import requests
 from lxml import etree
 from multiprocessing import Process # 只是更改设置守护进程
@@ -42,7 +44,6 @@ class QiuShi():
             self.item_queue.task_done()
 
     def run(self):
-
         tasks = []
 
         get_url_list_task = Process(target=self.get_utl_list)    # 这里只能传引用
@@ -75,5 +76,7 @@ class QiuShi():
 
 
 if __name__ == '__main__':
+    start_time = time.time()
     qiu_shi = QiuShi()
     qiu_shi.run()
+    print(time.time() - start_time)
