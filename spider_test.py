@@ -138,5 +138,5 @@ headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:23.0) Gecko/2010
 # request.urlretrieve(image_url, './images/{}.gif'.format(image_num))
 req = urllib.request.Request(url=image_url, headers=headers)
 # urllib.request.urlopen(req).read()
-with open('./images/1.gif', 'wb') as f:
+with open('./mall_info/1.gif', 'wb') as f:
     f.write(urllib.request.urlopen(req).read())

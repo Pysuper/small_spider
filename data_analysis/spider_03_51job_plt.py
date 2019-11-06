@@ -16,7 +16,8 @@ class JobPlt():
         self.plt_5 = []
         self.url_list = []
         self.html_list = Queue()
-        self.key = input("工作名:")
+        # self.key = input("工作名:")
+        self.key = "外贸"
         self.base_url = "https://search.51job.com/list/020000,000000,0000,00,9,99,{},2,{}.html?"
 
     def get_url_list(self):
@@ -35,17 +36,33 @@ class JobPlt():
         money_list = x_html.xpath('//div[@class="el"]/span[3]/text()')[1:]
         for money in money_list:
             money_int = re.match(r'((.*)-(.*))万/月', money)
+            if money_int is None:
+                money_int = re.match(r'((.*)-(.*))千/月', money)
+                if money_int:
+                    # num_1 = float(money_int.group(2))
+                    num_1 = float(money_int.group(3))   # 这里获取的num_2 是区间范围的最高值
+                    if 1 <= num_1 <= 5:
+                        self.plt_1.append(num_1)
+                    elif 5 <= num_1 <= 8:
+                        self.plt_2.append(num_1)
+                    elif 8 <= num_1 <= 15:
+                        self.plt_3.append(num_1)
+                    elif 15 <= num_1 <= 20:
+                        self.plt_4.append(num_1)
+                    elif 20 <= num_1:
+                        self.plt_5.append(num_1)
             if money_int:
-                num_1 = float(money_int.group(2))
-                if 0.5 <= num_1 <= 1:
+                # num_1 = float(money_int.group(2))   # 这里获取的num_1 是区间范围的最低值
+                num_1 = float(money_int.group(3))   # 这里获取的num_2 是区间范围的最高值
+                if 0.1 <= num_1 <= 0.5:
                     self.plt_1.append(num_1)
-                elif 1 <= num_1 <= 1.5:
+                elif 0.5 <= num_1 <= 0.8:
                     self.plt_2.append(num_1)
-                elif 1.5 <= num_1 <= 2:
+                elif 0.8 <= num_1 <= 1.5:
                     self.plt_3.append(num_1)
-                elif 2 <= num_1 <= 3:
+                elif 1.5 <= num_1 <= 2:
                     self.plt_4.append(num_1)
-                elif 3 <= num_1:
+                elif 2 <= num_1:
                     self.plt_5.append(num_1)
         self.html_list.task_done()
 
@@ -53,12 +70,12 @@ class JobPlt():
         x = [len(self.plt_1), len(self.plt_2), len(self.plt_3), len(self.plt_4)]
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
         plt.pie(x,
-                labels=['5-10K', '10-15K', '15-20K', '20K-30K'],
+                labels=['1-5K', '5-8K', '8-15K', '15K-20K'],
                 labeldistance=1.2,  # 设置标签距离圆心的距离（0为 圆饼中心数 1为圆饼边缘）
                 autopct="%1.1f%%",  # 1.1f% 保留一位小数的百分比
                 pctdistance=0.5,  # 比例值文字距离圆心的距离
                 explode=[0, 0.2, 0, 0],  # 每一块顶点距圆形的长度
-                colors=["red", "blue", "yellow", "green"],  # 最好一一对应
+                colors=["lightskyblue", "green", "royalblue", "magenta"],  # 最好一一对应
                 shadow=True,  # 是否有阴影
                 startangle=60,  # 第一块开始的角度
                 )
@@ -69,8 +86,8 @@ class JobPlt():
         # plt.ncol=2  # 分两列
         # plt.borderaxespad = 0.3 # 图例的内边距
         # plt.title("上海市{}岗位薪资占比".format(self.key))
-        plt.title("Python")
-        plt.savefig('Python')
+        plt.title("foreign trade")
+        plt.savefig('外贸大')
         plt.show()
 
     def run(self):
