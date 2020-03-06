@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bilibili-user" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mall_info" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mall_info/ScrapyProject" vcs="Git" />
   </component>

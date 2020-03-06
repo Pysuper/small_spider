@@ -1,74 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/spider_20_weixin.py" line="54" mnemonic="0" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bian/spider_06_4k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pip_install.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/small_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/small_spider.iml" afterDir="false" />
+    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="新冠肺炎数据">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/bian/spiders/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/bian/spiders/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/bian/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/bian/bian/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bian/spider_05_bian.py" beforeDir="false" afterPath="$PROJECT_DIR$/bian/spider_05_bian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/.idea/mall_info.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/.idea/mall_info.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/spiders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/spiders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/info/spiders/jd.py" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/info/spiders/jd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_info/info/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/mall_info/info/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meizitu/spider_01_meizitu.py" beforeDir="false" afterPath="$PROJECT_DIR$/meizitu/spider_01_meizitu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meizitu/spider_02_meizitu.py" beforeDir="false" afterPath="$PROJECT_DIR$/meizitu/spider_02_meizitu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neihan/spider_01_neihan.py" beforeDir="false" afterPath="$PROJECT_DIR$/neihan/spider_01_neihan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neihan/spider_02_neihan.py" beforeDir="false" afterPath="$PROJECT_DIR$/neihan/spider_02_neihan.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiushi/spider_04_qiushi_单线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiushi/spider_04_qiushi_单线程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiushi/spider_05_qiushi_多线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiushi/spider_05_qiushi_多线程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiushi/spider_06_qiushi_多进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/qiushi/spider_06_qiushi_多进程.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_01_51job.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_01_51job.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_02_gitar.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_02_gitar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_03_toutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_03_toutiao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_04_zhitong.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_04_zhitong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_05_runoob.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_05_runoob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_06_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_06_image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_07_xici.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_07_xici.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_08_useragent.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_08_useragent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_09_lianjia.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_09_lianjia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_10_shlf.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_10_shlf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_11_meizi.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_11_meizi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_12_vjav.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_12_vjav.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_13_doutu.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_13_doutu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_14_question.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_14_question.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_15_movie.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_15_movie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_16_tengxun.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_16_tengxun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_17_tengxun.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_17_tengxun.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_18_taobao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_18_taobao.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_19_1688.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_19_1688.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_20_weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_20_weixin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_21_weixin.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_21_weixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_test.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,115 +33,6 @@
     <SUITE FILE_PATH="coverage/small_spider$spider_19_1688.coverage" NAME="spider_19_1688 Coverage Results" MODIFIED="1557722487866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_17_taobao.coverage" NAME="spider_18_taobao Coverage Results" MODIFIED="1557478003152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/111111.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/save_images1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/save_images.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/run_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mufeifei/get_person_list.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/get_person_list1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/444444.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mufeifei/222222.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -212,85 +40,37 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>content__list</find>
-      <find>持续点火,跟进还是观望?</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/spider_51job.py" />
-        <option value="$PROJECT_DIR$/demo_test.py" />
-        <option value="$PROJECT_DIR$/spider_03_toutiao.py" />
-        <option value="$PROJECT_DIR$/spider_17_taobao.py" />
-        <option value="$PROJECT_DIR$/spider_16_tengxun.py" />
-        <option value="$PROJECT_DIR$/spider_18_taobao.py" />
-        <option value="$PROJECT_DIR$/spider_19_1688.py" />
-        <option value="$PROJECT_DIR$/spider_01_51job.py" />
-        <option value="$PROJECT_DIR$/spider_04_zhitong.py" />
-        <option value="$PROJECT_DIR$/spider_02_gitar.py" />
-        <option value="$PROJECT_DIR$/spider_07_xici.py" />
-        <option value="$PROJECT_DIR$/spider_08_useragent.py" />
-        <option value="$PROJECT_DIR$/spider_09_lianjia.py" />
-        <option value="$PROJECT_DIR$/spider_17_tengxun.py" />
-        <option value="$PROJECT_DIR$/spider_21_weixin.py" />
-        <option value="$PROJECT_DIR$/spider_20_weixin.py" />
-        <option value="$PROJECT_DIR$/qiushi/spider_02_qiushi_多进程.py" />
-        <option value="$PROJECT_DIR$/bian/spider_05_bian.py" />
-        <option value="$PROJECT_DIR$/bian/spider_07_other.py" />
-        <option value="$PROJECT_DIR$/bian/spider_06_4k.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="169" />
-    <option name="width" value="950" />
-    <option name="height" value="810" />
-  </component>
+  <component name="ProjectId" id="1SrqqoQUPMTV3Lj98cuvENeEEnj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data_analysis" />
+      <recent name="$PROJECT_DIR$/bilibili-user" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.save_images">
-    <configuration name="02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.spider_26_feiyan+web">
+    <configuration name="spider_23_lagou" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,12 +78,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mufeifei" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mufeifei/02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_23_lagou.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="save_images" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider_24_jdsearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,12 +100,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mufeifei" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mufeifei/save_images.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_24_jdsearch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="save_images1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider_25_Pysuper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,12 +122,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mufeifei" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mufeifei/save_images1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_25_Pysuper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider_06_4k" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider_26_feiyan+web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,12 +144,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bian" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bian/spider_06_4k.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_26_feiyan+web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -378,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider_07_other" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="spider_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,12 +166,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bian" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bian/spider_07_other.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -401,21 +181,33 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.spider_06_4k" />
-      <item itemvalue="Python.spider_07_other" />
-      <item itemvalue="Python.02" />
-      <item itemvalue="Python.save_images1" />
-      <item itemvalue="Python.save_images" />
+      <item itemvalue="Python.spider_23_lagou" />
+      <item itemvalue="Python.spider_test" />
+      <item itemvalue="Python.spider_24_jdsearch" />
+      <item itemvalue="Python.spider_25_Pysuper" />
+      <item itemvalue="Python.spider_26_feiyan+web" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.save_images" />
-        <item itemvalue="Python.save_images1" />
-        <item itemvalue="Python.02" />
-        <item itemvalue="Python.spider_06_4k" />
-        <item itemvalue="Python.spider_07_other" />
+        <item itemvalue="Python.spider_26_feiyan+web" />
+        <item itemvalue="Python.spider_25_Pysuper" />
+        <item itemvalue="Python.spider_24_jdsearch" />
+        <item itemvalue="Python.spider_test" />
+        <item itemvalue="Python.spider_23_lagou" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -434,6 +226,35 @@
       <workItem from="1562595783517" duration="730000" />
       <workItem from="1562596920099" duration="7630000" />
       <workItem from="1562633263448" duration="176000" />
+      <workItem from="1572332257703" duration="516000" />
+      <workItem from="1572334686894" duration="562000" />
+      <workItem from="1572577519862" duration="11121000" />
+      <workItem from="1573023903366" duration="794000" />
+      <workItem from="1573030395068" duration="1983000" />
+      <workItem from="1573087716740" duration="137000" />
+      <workItem from="1573108096044" duration="5750000" />
+      <workItem from="1573114489755" duration="3494000" />
+      <workItem from="1573174856293" duration="3912000" />
+      <workItem from="1573192440110" duration="7000" />
+      <workItem from="1573453926548" duration="14000" />
+      <workItem from="1573454062640" duration="3207000" />
+      <workItem from="1573460207091" duration="1609000" />
+      <workItem from="1573520623398" duration="884000" />
+      <workItem from="1573608245408" duration="5450000" />
+      <workItem from="1573780718264" duration="1843000" />
+      <workItem from="1573807390708" duration="2237000" />
+      <workItem from="1574043519860" duration="1209000" />
+      <workItem from="1574067589049" duration="871000" />
+      <workItem from="1574125435639" duration="14000" />
+      <workItem from="1575860443260" duration="4562000" />
+      <workItem from="1575883225139" duration="286000" />
+      <workItem from="1575939980165" duration="4952000" />
+      <workItem from="1575957196336" duration="107000" />
+      <workItem from="1579675501988" duration="333000" />
+      <workItem from="1579744221732" duration="742000" />
+      <workItem from="1582515631889" duration="5401000" />
+      <workItem from="1582855007811" duration="2877000" />
+      <workItem from="1583475874032" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1556526567699</created>
@@ -547,63 +368,87 @@
       <option name="project" value="LOCAL" />
       <updated>1557826002766</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="拉勾网的数据获取">
+      <created>1572335228893</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572335228893</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bilibili用户数据，spider_template">
+      <created>1572591943823</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572591943823</updated>
+    </task>
+    <task id="LOCAL-00019" summary="数据分析">
+      <created>1573032363246</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1573032363246</updated>
+    </task>
+    <task id="LOCAL-00020" summary="更新">
+      <created>1583476214819</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476214819</updated>
+    </task>
+    <task id="LOCAL-00021" summary="51job数据可视化">
+      <created>1583476250890</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476250890</updated>
+    </task>
+    <task id="LOCAL-00022" summary="获取京东搜素数据">
+      <created>1583476290363</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476290363</updated>
+    </task>
+    <task id="LOCAL-00023" summary="拉勾网">
+      <created>1583476310007</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476310007</updated>
+    </task>
+    <task id="LOCAL-00024" summary="获取Pysuper">
+      <created>1583476330465</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476330465</updated>
+    </task>
+    <task id="LOCAL-00025" summary="新冠肺炎数据">
+      <created>1583476348947</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476348947</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10570000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1922" height="1082" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15885417" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34746638" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936775" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32834226" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32875264" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32264736" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1513369" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4362487" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32834226" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32982087" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
@@ -620,376 +465,75 @@
     <MESSAGE value="链家数据提取" />
     <MESSAGE value="抓取搜狗微信的文章" />
     <MESSAGE value="抓取搜狗微信的文章--部分内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="抓取搜狗微信的文章--部分内容" />
+    <MESSAGE value="拉勾网的数据获取" />
+    <MESSAGE value="bilibili用户数据，spider_template" />
+    <MESSAGE value="数据分析" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="51job数据可视化" />
+    <MESSAGE value="获取京东搜素数据" />
+    <MESSAGE value="拉勾网" />
+    <MESSAGE value="获取Pysuper" />
+    <MESSAGE value="新冠肺炎数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="新冠肺炎数据" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2340" y="125" key="CommitChangelistDialog2" timestamp="1583476348847">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2340" y="125" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583476348847" />
+    <state x="2733" y="317" key="FileChooserDialogImpl" timestamp="1575860959098">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2733" y="317" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860959098" />
+    <state width="1872" height="298" key="GridCell.Tab.0.bottom" timestamp="1582867822216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="298" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
+    <state width="1872" height="298" key="GridCell.Tab.0.center" timestamp="1582867822216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="298" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
+    <state width="1872" height="298" key="GridCell.Tab.0.left" timestamp="1582867822216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="298" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
+    <state width="1872" height="298" key="GridCell.Tab.0.right" timestamp="1582867822216">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="298" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
+    <state x="2410" y="169" key="SettingsEditor" timestamp="1575860964567">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2410" y="169" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860964567" />
+    <state x="2597" y="408" width="742" height="313" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575860960538">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2597" y="408" width="742" height="313" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860960538" />
+    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup" timestamp="1582855043835">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582855043835" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/small_spider$spider_03_toutiao.coverage" NAME="spider_03_toutiao Coverage Results" MODIFIED="1562596458544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_spider$02.coverage" NAME="02 Coverage Results" MODIFIED="1562605182900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_06_4k.coverage" NAME="spider_06_4k Coverage Results" MODIFIED="1562604861003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_02_51job_plt.coverage" NAME="spider_02_51job_plt Coverage Results" MODIFIED="1573112866901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_25_Pysuper.coverage" NAME="spider_25_Pysuper Coverage Results" MODIFIED="1582521586710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_04_.coverage" NAME="spider_04_协线进 Coverage Results" MODIFIED="1562596340975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_03_51job_plt.coverage" NAME="spider_03_51job_plt Coverage Results" MODIFIED="1573111289501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_07_other.coverage" NAME="spider_07_other Coverage Results" MODIFIED="1562598904201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
     <SUITE FILE_PATH="coverage/small_spider$spider_05_runoob.coverage" NAME="spider_05_runoob Coverage Results" MODIFIED="1562596499045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_01_51job.coverage" NAME="spider_01_51job Coverage Results" MODIFIED="1562596407681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_24_jdsearch.coverage" NAME="spider_24_jdsearch Coverage Results" MODIFIED="1579675724698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_23_lagou.coverage" NAME="spider_23_lagou Coverage Results" MODIFIED="1573461714381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_05_bian.coverage" NAME="spider_05_bian Coverage Results" MODIFIED="1562596956024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
     <SUITE FILE_PATH="coverage/small_spider$save_images.coverage" NAME="save_images Coverage Results" MODIFIED="1562605258260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_04_zhitong.coverage" NAME="spider_04_zhitong Coverage Results" MODIFIED="1562596470716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_04_.coverage" NAME="spider_04_协线进 Coverage Results" MODIFIED="1562596340975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_test.coverage" NAME="spider_test Coverage Results" MODIFIED="1573808878252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$02.coverage" NAME="02 Coverage Results" MODIFIED="1562605182900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
     <SUITE FILE_PATH="coverage/small_spider$save_images1.coverage" NAME="save_images1 Coverage Results" MODIFIED="1562605253211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_07_other.coverage" NAME="spider_07_other Coverage Results" MODIFIED="1562598904201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_01_51job.coverage" NAME="spider_01_51job Coverage Results" MODIFIED="1562596407681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qiushi/spider_03_qiushi_多协程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushi/spider_01_qiushi_多线程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="39" column="33" lean-forward="true" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushi/spider_04_qiushi_单线程.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushi/spider_06_qiushi_多进程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/temp.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ghostdriver.log" />
-    <entry file="file://$PROJECT_DIR$/name.txt" />
-    <entry file="file://$PROJECT_DIR$/bian/spider_01_bian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-915" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tie_ba.html" />
-    <entry file="file://$PROJECT_DIR$/neihan/spider_02_neihan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qiushi/spider_02_qiushi_多进程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#246#558#0" />
-            <element signature="e#596#712#0" />
-            <element signature="e#747#1256#0" />
-            <element signature="e#1306#1451#0" />
-            <element signature="e#1480#1677#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2800">
-          <caret line="141" column="47" selection-start-line="141" selection-start-column="47" selection-end-line="141" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_07_xici.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_08_useragent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_09_lianjia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="860">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_11_meizi.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_15_movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_16_tengxun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_17_tengxun.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_18_taobao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_19_1688.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_20_weixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_21_weixin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pip_install.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/spider_04_协线进.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/spider_05_bian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/image/美女.jpg" />
-    <entry file="file://$PROJECT_DIR$/bian/spider_07_other.py" />
-    <entry file="file://$PROJECT_DIR$/spider_01_51job.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1345">
-          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_03_toutiao.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_02_gitar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_04_zhitong.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_05_runoob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_10_shlf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_14_question.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_13_doutu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_12_vjav.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider_06_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/image/asd.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/image/asds.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bian/spider_06_4k.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="121" column="24" lean-forward="true" selection-start-line="121" selection-start-column="24" selection-end-line="121" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#2495#3167#0" />
-            <element signature="e#4107#4175#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/111111.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/save_images1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/save_images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/run_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/get_person_list1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/444444.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/222222.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mufeifei/get_person_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/small_spider$spider_06_VIP.coverage" NAME="spider_06_VIP Coverage Results" MODIFIED="1573457387613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
+    <SUITE FILE_PATH="coverage/small_spider$bilibili_user.coverage" NAME="bilibili_user Coverage Results" MODIFIED="1572591164719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili-user" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_26_feiyan_web.coverage" NAME="spider_26_feiyan+web Coverage Results" MODIFIED="1582856640234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_03_toutiao.coverage" NAME="spider_03_toutiao Coverage Results" MODIFIED="1562596458544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_06_4k.coverage" NAME="spider_06_4k Coverage Results" MODIFIED="1562604861003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_04_zhitong.coverage" NAME="spider_04_zhitong Coverage Results" MODIFIED="1562596470716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
