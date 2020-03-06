@@ -1,10 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="新冠肺炎数据">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/spider+web.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/static/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask_Spider/templates/LayUI.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spider_26_feiyan+web.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +147,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,44 +165,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Flask_Spider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Flask_Spider/static" />
+      <recent name="$PROJECT_DIR$/Flask_Spider/templates" />
+      <recent name="$PROJECT_DIR$/Flask_Spider" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Flask_Spider" />
       <recent name="$PROJECT_DIR$/data_analysis" />
       <recent name="$PROJECT_DIR$/bilibili-user" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.spider_26_feiyan+web">
-    <configuration name="spider_23_lagou" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="small_spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_23_lagou.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.spider+web">
     <configuration name="spider_24_jdsearch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,7 +232,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider_26_feiyan+web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="spider_26_epidemic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +245,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_26_feiyan+web.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_26_epidemic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -180,20 +276,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="spider+web" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="small_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask_Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask_Spider/spider+web.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.spider_23_lagou" />
       <item itemvalue="Python.spider_test" />
       <item itemvalue="Python.spider_24_jdsearch" />
       <item itemvalue="Python.spider_25_Pysuper" />
-      <item itemvalue="Python.spider_26_feiyan+web" />
+      <item itemvalue="Python.spider_26_epidemic" />
+      <item itemvalue="Python.spider+web" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spider_26_feiyan+web" />
+        <item itemvalue="Python.spider+web" />
+        <item itemvalue="Python.spider_26_epidemic" />
         <item itemvalue="Python.spider_25_Pysuper" />
         <item itemvalue="Python.spider_24_jdsearch" />
         <item itemvalue="Python.spider_test" />
-        <item itemvalue="Python.spider_23_lagou" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +372,7 @@
       <workItem from="1579744221732" duration="742000" />
       <workItem from="1582515631889" duration="5401000" />
       <workItem from="1582855007811" duration="2877000" />
-      <workItem from="1583475874032" duration="605000" />
+      <workItem from="1583475874032" duration="9369000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1556526567699</created>
@@ -431,7 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583476348947</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Delete test">
+      <created>1583476507505</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583476507505</updated>
+    </task>
+    <task id="LOCAL-00027" summary="新冠肺炎数据抓取">
+      <created>1583481206712</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583481206712</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,48 +606,75 @@
     <MESSAGE value="拉勾网" />
     <MESSAGE value="获取Pysuper" />
     <MESSAGE value="新冠肺炎数据" />
-    <option name="LAST_COMMIT_MESSAGE" value="新冠肺炎数据" />
+    <MESSAGE value="Delete test" />
+    <MESSAGE value="新冠肺炎数据抓取" />
+    <option name="LAST_COMMIT_MESSAGE" value="新冠肺炎数据抓取" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2340" y="125" key="CommitChangelistDialog2" timestamp="1583476348847">
+    <state x="2340" y="125" key="CommitChangelistDialog2" timestamp="1583481206616">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2340" y="125" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583476348847" />
+    <state x="2340" y="125" key="CommitChangelistDialog2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583481206616" />
     <state x="2733" y="317" key="FileChooserDialogImpl" timestamp="1575860959098">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2733" y="317" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860959098" />
-    <state width="1872" height="298" key="GridCell.Tab.0.bottom" timestamp="1582867822216">
+    <state width="1872" height="299" key="GridCell.Tab.0.bottom" timestamp="1583483524776">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="298" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
-    <state width="1872" height="298" key="GridCell.Tab.0.center" timestamp="1582867822216">
+    <state width="1872" height="299" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583483524776" />
+    <state width="1872" height="299" key="GridCell.Tab.0.center" timestamp="1583483524776">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="298" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
-    <state width="1872" height="298" key="GridCell.Tab.0.left" timestamp="1582867822216">
+    <state width="1872" height="299" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583483524776" />
+    <state width="1872" height="299" key="GridCell.Tab.0.left" timestamp="1583483524776">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="298" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
-    <state width="1872" height="298" key="GridCell.Tab.0.right" timestamp="1582867822216">
+    <state width="1872" height="299" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583483524776" />
+    <state width="1872" height="299" key="GridCell.Tab.0.right" timestamp="1583483524776">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="298" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582867822216" />
+    <state width="1872" height="299" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583483524776" />
+    <state width="1872" height="348" key="GridCell.Tab.1.bottom" timestamp="1583479194322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583479194322" />
+    <state width="1872" height="348" key="GridCell.Tab.1.center" timestamp="1583479194322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="348" key="GridCell.Tab.1.center/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583479194322" />
+    <state width="1872" height="348" key="GridCell.Tab.1.left" timestamp="1583479194322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="348" key="GridCell.Tab.1.left/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583479194322" />
+    <state width="1872" height="348" key="GridCell.Tab.1.right" timestamp="1583479194322">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="348" key="GridCell.Tab.1.right/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583479194322" />
     <state x="2410" y="169" key="SettingsEditor" timestamp="1575860964567">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2410" y="169" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860964567" />
+    <state x="2479" y="270" key="Vcs.Push.Dialog.v2" timestamp="1583476513635">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2479" y="270" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583476513635" />
+    <state x="2599" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583477433217">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2599" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583477433217" />
     <state x="2597" y="408" width="742" height="313" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1575860960538">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2597" y="408" width="742" height="313" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1575860960538" />
-    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup" timestamp="1582855043835">
+    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup" timestamp="1583483290032">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1582855043835" />
+    <state x="2537" y="239" width="684" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1080@1920.0.1920.1080" timestamp="1583483290032" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/small_spider$spider_02_51job_plt.coverage" NAME="spider_02_51job_plt Coverage Results" MODIFIED="1573112866901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_web.coverage" NAME="spider+web Coverage Results" MODIFIED="1583483524769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask_Spider" />
     <SUITE FILE_PATH="coverage/small_spider$spider_25_Pysuper.coverage" NAME="spider_25_Pysuper Coverage Results" MODIFIED="1582521586710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_04_.coverage" NAME="spider_04_协线进 Coverage Results" MODIFIED="1562596340975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
     <SUITE FILE_PATH="coverage/small_spider$spider_03_51job_plt.coverage" NAME="spider_03_51job_plt Coverage Results" MODIFIED="1573111289501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
@@ -531,7 +690,7 @@
     <SUITE FILE_PATH="coverage/small_spider$save_images1.coverage" NAME="save_images1 Coverage Results" MODIFIED="1562605253211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
     <SUITE FILE_PATH="coverage/small_spider$spider_06_VIP.coverage" NAME="spider_06_VIP Coverage Results" MODIFIED="1573457387613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
     <SUITE FILE_PATH="coverage/small_spider$bilibili_user.coverage" NAME="bilibili_user Coverage Results" MODIFIED="1572591164719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili-user" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_26_feiyan_web.coverage" NAME="spider_26_feiyan+web Coverage Results" MODIFIED="1582856640234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_26_feiyan_web.coverage" NAME="spider_26_feiyan+web Coverage Results" MODIFIED="1583481006221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_03_toutiao.coverage" NAME="spider_03_toutiao Coverage Results" MODIFIED="1562596458544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_06_4k.coverage" NAME="spider_06_4k Coverage Results" MODIFIED="1562604861003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
     <SUITE FILE_PATH="coverage/small_spider$spider_04_zhitong.coverage" NAME="spider_04_zhitong Coverage Results" MODIFIED="1562596470716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

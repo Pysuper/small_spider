@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>新冠肺炎数据抓取</title>
+    <link rel="stylesheet" href="../static/layui/css/layui.css" media="all">
+</head>
+<body>
+
+<table id="demo" lay-filter="test"></table>
+
+<script src="../static/layui/layui.js"></script>
+<script>
+    layui.use('table', function () {
+        var table = layui.table;
+
+        //第一个实例
+        table.render({
+            elem: '#demo'
+            , height: 312
+            , url: 'https://www.layui.com/demo/table/user/?page=1&limit=30' //数据接口
+            , page: False //开启分页
+            , cols: [[ //表头
+
+            //     {field: 'date', title: '时间', width: 80, sort: true, fixed: 'left'}
+            //     , {field: 'province_name', title: '市区', width: 80}
+            //     , {field: 'city_name', title: '城市', width: 80, sort: true}
+            //     , {field: 'today_confirm', title: '新增确认', width: 80}
+            //     , {field: '日期', title: '日期', width: 177}
+            //     , {field: '省份', title: '省份', width: 80, sort: true}
+            //     , {field: 'total_confirm', title: '累计确认', width: 80, sort: true}
+            //     , {field: 'total_heal', title: '累计治愈', width: 80}
+            //     , {field: 'total_dead', title: '累计死亡', width: 135, sort: true}
+            //     , {field: 'today_heal', title: '新增治愈', width: 135, sort: true}
+            //     , {field: 'today_dead', title: '新增死亡', width: 135, sort: true}
+            ]]
+        });
+
+    });
+</script>
+</body>
+</html>
