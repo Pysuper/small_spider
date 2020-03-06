@@ -1,4 +1,5 @@
 import os
+import urllib
 from urllib.parse import urlencode
 from urllib.request import urlopen, Request
 
@@ -120,31 +121,39 @@ from lxml import etree
 # bi_an.run()
 
 
-url = "http://pic.netbian.com/downpic.php?classid=53&id=22674"
-proxy = {"101.200.43.49":"6000"}
+# url = "http://pic.netbian.com/e/extend/downpic.php?id=22757&t=0.8611827707399171"
+# url = "http://pic.netbian.com/downpic.php?classid=53&id=22674"
+# url = "http://pic.netbian.com/downpic.php?id=24731&classid=65"
+# url = "http://pic.netbian.com/downpic.php?id=22757&classid=53"  # OK
+url = "http://pic.netbian.com/downpic.php?classid=66&id=24692"  # OK
+# url = "http://pic.netbian.com/e/extend/downpic.php?id=2023&t=0.3910100997868766"
 headers = {
-    "User-Agent":"Mozilla/5.0 (Windows; U; MSIE 9.0; Windows NT 9.0; en-US)",
-    "Content-Disposition":'attachment; filename="ad.jpg"',
-    "Content-Type":"image/jpg",
-    "Set-Cookie":"zkhandownid22657=2; expires=Wed, 24-Jul-2019 01:12:19 GMT; path=/",
-    "Cookie":"__cfduid=de1ca3d0fc5b6a90b5d903b52412785321562603023; "
-             "yjs_id=cb1ae96ac5806c14eb8d6460ccd29ade; "
-             "Hm_lvt_14b14198b6e26157b7eba06b390ab763=1562596962,1562598639,1562894596,1563336379; "
-             "zkhanlastsearchtime=1563867923; "
-             "Hm_lvt_526caf4e20c21f06a4e9209712d6a20e=1563869932,1563870149,1563872511,1563930507; "
-             "PHPSESSID=36646ad9d13b82a784fc4071e558016f; "
-             "zkhanmlusername=%D2%BB%C6%DF%C4%EA%CA%AE%D4%C2%CB%C4%BA%C5; "
-             "zkhanmluserid=1325919; "
-             "zkhanmlgroupid=1; zkhanmlrnd=b9gIIo0BZSSUjILLkFgc; "
-             "zkhanmlauth=953b19dd305c81b71df2223591c5a0a4; "
-             "zkhanecookieclassrecord=%2C53%2C; "
-             "Hm_lpvt_526caf4e20c21f06a4e9209712d6a20e=1563931611; "
-             "security_session_verify=f1608b4db57a3d934d6cc8d8ea495211"
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36",
+    "Content-Disposition": 'attachment; filename="ad.jpg"',
+    "Content-Type": "image/jpg",
+    "Set-Cookie": "zkhandownid22657=2; expires=Wed, 24-Jul-2019 01:12:19 GMT; path=/",
+    "Cookie":
+        "zkhandownid66=1;"
+        "zkhanmlauth=2ed170a2674e327566beac165668922f; "
+        "zkhanmlgroupid=0;"
+        "security_session_verify=7b789c15ca07d00addf06f8e85e6f4a3"
+        "zkhanmlusername=%D2%BB%C6%DF%C4%EA%CA%AE%D4%C2%CB%C4%BA%C5; "
+        "zkhanmluserid=1325919; "
+        "zkhanmlrnd=XvqFaJ4BSL7hwMeZD0ej; "
+    # "Cookie": "__cfduid=d7ca9298f643fefbe16434be520ce29911573104564; Hm_lvt_14b14198b6e26157b7eba06b390ab763=1573112991; Hm_lvt_526caf4e20c21f06a4e9209712d6a20e=1573104567,1573112997,1573174684; PHPSESSID=9ceb3fcb4d84de02a04e2ebeef249de2; zkhanmlusername=qq833224157317; zkhanmluserid=2247240; zkhanmlgroupid=1; zkhanmlrnd=AzS0noOX9iT0qdERzs1Y; zkhanmlauth=e52094877357b3c6fc55e84f141fe0b6; security_session_verify=c098b1a276a1de7565c86a01070745f1; Hm_lpvt_526caf4e20c21f06a4e9209712d6a20e=1573179977"
 }
 
-response = requests.get(url, headers=headers, proxies=proxy)
-print(response.text)
-
+# req = urllib.request.Request(url=url, headers=headers)
+# result = urllib.request.urlopen(req).read()
+response = requests.get(url=url, headers=headers)
+# print(response.text)
+result = response.text
+print(result)
+if type(result) is 'str':
+    with open('../mall_info/1.gif', 'wb') as f:
+        f.write(result)
+else:
+    print("无法写入字符串!")
 
 """
 /e/public/ViewClick/ViewMore.php?classid=53&id=22657&addclick=1
@@ -152,6 +161,4 @@ print(response.text)
 http://pic.netbian.com/e/extend/downpic.php?id=22657&t=0.20407280069802414
 
 {"msg": 4,"pic":"/downpic.php?id=22657&classid=53"}
-
-
 """
