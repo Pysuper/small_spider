@@ -17,7 +17,7 @@ class JobPlt():
         self.url_list = []
         self.html_list = Queue()
         # self.key = input("工作名:")
-        self.key = "外贸"
+        self.key = "Python"
         self.base_url = "https://search.51job.com/list/020000,000000,0000,00,9,99,{},2,{}.html?"
 
     def get_url_list(self):
@@ -86,8 +86,10 @@ class JobPlt():
         # plt.ncol=2  # 分两列
         # plt.borderaxespad = 0.3 # 图例的内边距
         # plt.title("上海市{}岗位薪资占比".format(self.key))
-        plt.title("foreign trade")
-        plt.savefig('外贸大')
+        # plt.title("Python Min")
+        # plt.savefig('Python_Min')
+        plt.title("Python Max")
+        plt.savefig('Python_Max')
         plt.show()
 
     def run(self):

@@ -50,15 +50,16 @@ class JobPlt():
         self.html_list.task_done()
 
     def save_plt(self):
-        x = [len(self.plt_1), len(self.plt_2), len(self.plt_3), len(self.plt_4)]
+        print(len(self.plt_1)+len(self.plt_2)+len(self.plt_3)+len(self.plt_4)+len(self.plt_5))
+        x = [len(self.plt_1), len(self.plt_2), len(self.plt_3), len(self.plt_4), len(self.plt_5)]
         plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
         plt.pie(x,
-                labels=['5-10K', '10-15K', '15-20K', '20K-30K'],
+                labels=['5-10K', '10-15K', '15-20K', '20K-30K', 'other'],
                 labeldistance=1.2,  # 设置标签距离圆心的距离（0为 圆饼中心数 1为圆饼边缘）
                 autopct="%1.1f%%",  # 1.1f% 保留一位小数的百分比
                 pctdistance=0.5,  # 比例值文字距离圆心的距离
-                explode=[0, 0.2, 0, 0],  # 每一块顶点距圆形的长度
-                colors=["red", "blue", "yellow", "green"],  # 最好一一对应
+                explode=[0, 0.2, 0, 0, 0],  # 每一块顶点距圆形的长度
+                colors=["red", "blue", "yellow", "green", "royalblue"],  # 最好一一对应
                 shadow=True,  # 是否有阴影
                 startangle=60,  # 第一块开始的角度
                 )
@@ -70,7 +71,7 @@ class JobPlt():
         # plt.borderaxespad = 0.3 # 图例的内边距
         # plt.title("上海市{}岗位薪资占比".format(self.key))
         plt.title("Python")
-        plt.savefig('Python')
+        plt.savefig('外贸')
         plt.show()
 
     def run(self):
