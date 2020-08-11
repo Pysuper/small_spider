@@ -96,11 +96,11 @@ static = os.path.join(BASE_DIR, 'static')
 server = flask.Flask(__name__, template_folder=templates, static_folder=static)  # 创建一个flask对象
 
 
-@server.route('/', methods=["GET"])
+@server.route('/more/', methods=["GET"])
 def items():
     data = Epidemic().run()
-    # return json.dumps({"code": 0, "msg": "", "count": 100000, "data": data})
-    return render_template('LayUI.html', data=data)
+    # return json.dumps({"code": 0, "msg": "", "count": 500, "data": data})
+    return render_template('index.html', data=data)
 
 
 server.run(port=8090, debug=True)
