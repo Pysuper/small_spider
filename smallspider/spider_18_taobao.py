@@ -8,7 +8,7 @@ class Taobao():
 
     def __init__(self):
         self.base_url = "https://login.taobao.com/member/login.jhtml?from=taobaoindex&f=top&style=&sub=true&redirect_url=https%3A%2F%2Fi.taobao.com%2Fmy_taobao.htm%3Fspm%3Da21bo.2017.754894437.3.5af911d96dD87y%26ad_id%3D%26am_id%3D%26cm_id%3D%26pm_id%3D1501036000a02c5c3739"
-        self.browser = webdriver.Chrome("./chromedriver")
+        self.browser = webdriver.Chrome("../chromedriver")
 
     def selenium_parse(self):
         self.browser.get(self.base_url)  # 打开页面

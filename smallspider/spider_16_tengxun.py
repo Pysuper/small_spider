@@ -12,7 +12,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class Tencent():
     def __init__(self):
-        self.browser = webdriver.Chrome("./chromedriver")
+        self.browser = webdriver.Chrome("../chromedriver")
         self.wait = WebDriverWait(self.browser, 10)
         # self.options = webdriver.ChromeOptions()  # 创建配置对象
         # # 设置User-Agent
