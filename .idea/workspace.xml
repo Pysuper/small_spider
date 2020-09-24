@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="新冠肺炎数据抓取">
-      <change afterPath="$PROJECT_DIR$/smallspider/asd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallspider/spider_27_nj68.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallspider/spider_28_asyncio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallspider/spider_29_track.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallspider/spider_30_taohua.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smallspider/spider_31_taohua.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taohua/aiohttp_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taohua/anyic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/taohua/spider_28_taohua_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/small_spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/small_spider.iml" afterDir="false" />
+    <list default="true" id="3aa0230e-e061-4009-8136-c9ed18ed5290" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/taohua/download.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallspider/spider_28_taohua.py" beforeDir="false" afterPath="$PROJECT_DIR$/taohua/spider_28_taohua.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smallspider/zzz_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallspider/zzz_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smallspider/spider_30_taohua.py" beforeDir="false" afterPath="$PROJECT_DIR$/smallspider/spider_30_taohua.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +94,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.spider_30_taohua">
+    <configuration name="download" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="small_spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taohua" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taohua/download.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="spider_28_asyncio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="small_spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,28 +130,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallspider/spider_28_asyncio.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="spider_29_track" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="small_spider" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smallspider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/smallspider/spider_29_track.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,18 +206,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.spider_28_asyncio" />
-      <item itemvalue="Python.spider_29_track" />
       <item itemvalue="Python.zzz_test" />
       <item itemvalue="Python.spider_30_taohua" />
       <item itemvalue="Python.spider_31_taohua" />
+      <item itemvalue="Python.download" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.spider_30_taohua" />
+        <item itemvalue="Python.download" />
         <item itemvalue="Python.zzz_test" />
         <item itemvalue="Python.spider_31_taohua" />
         <item itemvalue="Python.spider_28_asyncio" />
-        <item itemvalue="Python.spider_29_track" />
       </list>
     </recent_temporary>
   </component>
@@ -293,6 +282,11 @@
       <workItem from="1600865708525" duration="1796000" />
       <workItem from="1600867527322" duration="1798000" />
       <workItem from="1600869416657" duration="122000" />
+      <workItem from="1600872212939" duration="76000" />
+      <workItem from="1600948650955" duration="1793000" />
+      <workItem from="1600950461159" duration="1795000" />
+      <workItem from="1600952271559" duration="1794000" />
+      <workItem from="1600954143578" duration="446000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1556526567699</created>
@@ -497,7 +491,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597165265928</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="调整目录结构">
+      <created>1600872248951</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1600872248951</updated>
+    </task>
+    <task id="LOCAL-00031" summary="添加asyncio异步抓取">
+      <created>1600872274604</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1600872274604</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +524,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="操作淘宝页面" />
     <MESSAGE value="创建scrapy项目" />
     <MESSAGE value="优化抓取时页数选择" />
     <MESSAGE value="优化智通人才网岗位数据提取" />
@@ -539,9 +546,10 @@
     <MESSAGE value="删除图片" />
     <MESSAGE value="更新新冠数据抓取" />
     <MESSAGE value="增加安装包" />
-    <MESSAGE value="调整目录结构" />
     <MESSAGE value="获取公社信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="获取公社信息" />
+    <MESSAGE value="调整目录结构" />
+    <MESSAGE value="添加asyncio异步抓取" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加asyncio异步抓取" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="215" key="#Inspections" timestamp="1597932059449">
@@ -552,42 +560,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="617" y="365" width="677" height="362" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1598014366087" />
-    <state x="383" y="81" key="CommitChangelistDialog2" timestamp="1597165265870">
+    <state x="383" y="81" key="CommitChangelistDialog2" timestamp="1600872274501">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="383" y="81" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1597165265870" />
+    <state x="383" y="81" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1600872274501" />
     <state x="687" y="292" key="FileChooserDialogImpl" timestamp="1598014500033">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="687" y="292" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1598014500033" />
-    <state width="1872" height="323" key="GridCell.Tab.0.bottom" timestamp="1600869265634">
+    <state width="1920" height="516" key="GridCell.Tab.0.bottom" timestamp="1600953957367">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600869265634" />
-    <state width="1872" height="323" key="GridCell.Tab.0.center" timestamp="1600869265632">
+    <state width="1920" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1600953957367" />
+    <state width="1920" height="516" key="GridCell.Tab.0.center" timestamp="1600953957365">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="323" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600869265632" />
-    <state width="1872" height="323" key="GridCell.Tab.0.left" timestamp="1600869265632">
+    <state width="1920" height="516" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1600953957365" />
+    <state width="1920" height="516" key="GridCell.Tab.0.left" timestamp="1600953957364">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="323" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600869265632" />
-    <state width="1872" height="323" key="GridCell.Tab.0.right" timestamp="1600869265633">
+    <state width="1920" height="516" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1600953957364" />
+    <state width="1920" height="516" key="GridCell.Tab.0.right" timestamp="1600953957366">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="323" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600869265633" />
+    <state width="1920" height="516" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1600953957366" />
     <state x="483" y="169" width="962" height="742" key="SettingsEditor" timestamp="1600859904154">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="483" y="169" width="962" height="742" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1600859904154" />
-    <state x="559" y="270" key="Vcs.Push.Dialog.v2" timestamp="1597165267125">
+    <state x="559" y="270" key="Vcs.Push.Dialog.v2" timestamp="1600872276479">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="559" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1597165267125" />
-    <state x="617" y="239" width="684" height="678" key="search.everywhere.popup" timestamp="1600866551442">
+    <state x="559" y="270" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600872276479" />
+    <state x="617" y="239" width="684" height="678" key="search.everywhere.popup" timestamp="1600948686575">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="617" y="239" width="684" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600866551442" />
+    <state x="617" y="239" width="684" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1600948686575" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/small_spider$spider_27_souyin.coverage" NAME="spider_27_souyin Coverage Results" MODIFIED="1584538955077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -595,7 +603,7 @@
     <SUITE FILE_PATH="coverage/small_spider$spider_23_lagou.coverage" NAME="spider_23_lagou Coverage Results" MODIFIED="1573461714381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_test.coverage" NAME="spider_test Coverage Results" MODIFIED="1573808878252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$spider_06_VIP.coverage" NAME="spider_06_VIP Coverage Results" MODIFIED="1573457387613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
-    <SUITE FILE_PATH="coverage/small_spider$spider_30_taohua.coverage" NAME="spider_30_taohua Coverage Results" MODIFIED="1600869229582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smallspider" />
+    <SUITE FILE_PATH="coverage/small_spider$spider_30_taohua.coverage" NAME="spider_30_taohua Coverage Results" MODIFIED="1600953957356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smallspider" />
     <SUITE FILE_PATH="coverage/small_spider$spider_01_51job.coverage" NAME="spider_01_51job Coverage Results" MODIFIED="1562596407681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/small_spider$02.coverage" NAME="02 Coverage Results" MODIFIED="1562605182900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
     <SUITE FILE_PATH="coverage/small_spider$spider_05_bian.coverage" NAME="spider_05_bian Coverage Results" MODIFIED="1562596956024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
@@ -612,6 +620,7 @@
     <SUITE FILE_PATH="coverage/small_spider$zzz_test.coverage" NAME="zzz_test Coverage Results" MODIFIED="1600868937703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smallspider" />
     <SUITE FILE_PATH="coverage/small_spider$spider_02_51job_plt.coverage" NAME="spider_02_51job_plt Coverage Results" MODIFIED="1573112866901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_analysis" />
     <SUITE FILE_PATH="coverage/small_spider$spider_28_taohua.coverage" NAME="spider_28_taohua Coverage Results" MODIFIED="1597165072456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/smallspider" />
+    <SUITE FILE_PATH="coverage/small_spider$download.coverage" NAME="download Coverage Results" MODIFIED="1600950331664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taohua" />
     <SUITE FILE_PATH="coverage/small_spider$save_images1.coverage" NAME="save_images1 Coverage Results" MODIFIED="1562605253211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mufeifei" />
     <SUITE FILE_PATH="coverage/small_spider$bilibili_user.coverage" NAME="bilibili_user Coverage Results" MODIFIED="1572591164719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bilibili-user" />
     <SUITE FILE_PATH="coverage/small_spider$spider_07_other.coverage" NAME="spider_07_other Coverage Results" MODIFIED="1562598904201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bian" />
